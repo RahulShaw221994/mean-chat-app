@@ -1,0 +1,28 @@
+{
+  "name": "mean-chat-app",
+  "version": "1.0.0",
+  "description": "A simple Chat App with MEAN stack and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulShaw221994/mean-chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulShaw221994/mean-chat-app/issues"
+  },
+  "homepage": "https://github.com/RahulShaw221994/mean-chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
